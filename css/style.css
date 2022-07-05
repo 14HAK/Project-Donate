@@ -1,3 +1,50 @@
-h1 {
-  color: tomato;
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header section */
+.header-section {
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  background-image:
+    linear-gradient(to bottom, #0a0a0a80, #000000b4),
+    url('https://github.com/14HAK/Project-Donate/blob/master/images/donation5.jpg?raw=true');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-section .header-text {
+  padding: 20px;
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  padding-top: 200px;
+}
+
+.header-section .header-text h1 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.header-section .header-text p {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.header-section .header-text a {
+  text-decoration: none;
+  color: #fff;
+  background-color: tomato;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
 }
