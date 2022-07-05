@@ -56,9 +56,10 @@ body {
   height: 60vh;
   text-align: center;
   margin: 0 auto;
-  margin-top: 65px;
-  margin-bottom: 65px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
+
 
 .donate-us h1 {
   font-size: 40px;
@@ -101,8 +102,6 @@ body {
   font-size: 30px;
 }
 
-
-
 .donate-us input[type=text] {
   border: none;
   border-bottom: 1px solid lightgray;
@@ -123,4 +122,71 @@ body {
   outline: 0;
   border: none;
   font-size: 20px;
+}
+
+/* donate plane section */
+
+.donate-plane {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+.donate-plane h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.donate-plane #donate-plane-p {
+  font-size: 20px;
+  width: 54%;
+  margin: 10px auto;
+}
+
+.donate-plane .donate-plan-card {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 70px 0px;
+}
+
+.donate-plane .donate-plan-card .card {
+  width: 20%;
+}
+
+.donate-plane .donate-plan-card .one {
+  background-color: rgba(255, 99, 71, 0.205);
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.donate-plane .donate-plan-card .two {
+  background-color: rgba(210, 180, 140, 0.205);
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.donate-plane .donate-plan-card .three {
+  background-color: rgba(0, 128, 128, 0.205);
+  padding: 25px;
+  border-radius: 10px;
+}
+
+
+
+.donate-plane .donate-plan-card .card img {
+  width: 45px;
+}
+
+.donate-plane .donate-plan-card .card h3 {
+  font-size: 20px;
+  margin: 15px 0px;
+}
+
+.donate-plane .donate-plan-card .card p {
+  font-size: 15px;
 }
