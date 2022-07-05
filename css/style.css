@@ -8,6 +8,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+/* .............................................................. */
 /* Header section */
 .header-section {
   width: 100%;
@@ -50,6 +51,7 @@ body {
   font-size: 20px;
 }
 
+/* ............................................................. */
 /* Donate section */
 .donate-us {
   width: 70%;
@@ -124,6 +126,7 @@ body {
   font-size: 20px;
 }
 
+/* ........................................................ */
 /* donate plane section */
 
 .donate-plane {
@@ -189,4 +192,53 @@ body {
 
 .donate-plane .donate-plan-card .card p {
   font-size: 15px;
+}
+
+/* ........................................................ */
+/* Servive section 1*/
+/* ........................................................ */
+/* Servive section 2*/
+
+.servive-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5% 3%;
+}
+
+.servive-section-area {
+  width: 35%;
+  overflow: hidden;
+
+}
+
+.radious {
+  border-radius: 25px;
+}
+
+.servive-section-area h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.servive-section-area p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.servive-section-area input[type=submit] {
+  text-decoration: none;
+  color: #fff;
+  background-color: tomato;
+  padding: 10px 22px;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: 0;
+  border: none;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.servive-section-area img {
+  height: 584px;
 }
