@@ -21,7 +21,7 @@ body {
   background-size: cover;
 }
 
-.header-section .header-text {
+.header-text {
   padding: 20px;
   width: 65%;
   margin: 0 auto;
@@ -30,18 +30,18 @@ body {
   padding-top: 200px;
 }
 
-.header-section .header-text h1 {
+.header-text h1 {
   font-size: 50px;
   font-weight: 400;
   margin-bottom: 10px;
 }
 
-.header-section .header-text p {
+.header-text p {
   font-size: 18px;
   margin-bottom: 35px;
 }
 
-.header-section .header-text a {
+.header-text a {
   text-decoration: none;
   color: #fff;
   background-color: tomato;
@@ -73,7 +73,7 @@ body {
   margin-bottom: 32px;
 }
 
-.donate-us .donate-taka-sec {
+.donate-taka-sec {
   width: 75px;
   background-color: #f3f3f3;
   padding: 20px 40px;
@@ -87,19 +87,19 @@ body {
   border: .1px solid rgba(255, 99, 71, 0.658);
 } */
 
-.donate-us .donate-taka-sec:nth-child(2) {
+.donate-taka-sec:nth-child(2) {
   background-color: rgba(255, 99, 71, 0.219);
   border: .1px solid rgba(255, 99, 71, 0.658);
 }
 
-.donate-us .flex {
+.flex {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 45px;
 }
 
-.donate-us .donate-taka-sec p {
+.donate-taka-sec p {
   margin-bottom: 0px;
   font-size: 30px;
 }
@@ -149,7 +149,7 @@ body {
   margin: 10px auto;
 }
 
-.donate-plane .donate-plan-card {
+.donate-plan-card {
   width: 100%;
   text-align: left;
   display: flex;
@@ -157,23 +157,23 @@ body {
   margin: 70px 0px;
 }
 
-.donate-plane .donate-plan-card .card {
+.donate-plan-card .card {
   width: 20%;
 }
 
-.donate-plane .donate-plan-card .one {
+.donate-plan-card .one {
   background-color: rgba(255, 99, 71, 0.205);
   padding: 25px;
   border-radius: 10px;
 }
 
-.donate-plane .donate-plan-card .two {
+.donate-plan-card .two {
   background-color: rgba(210, 180, 140, 0.205);
   padding: 25px;
   border-radius: 10px;
 }
 
-.donate-plane .donate-plan-card .three {
+.donate-plan-card .three {
   background-color: rgba(0, 128, 128, 0.205);
   padding: 25px;
   border-radius: 10px;
@@ -181,16 +181,16 @@ body {
 
 
 
-.donate-plane .donate-plan-card .card img {
+.donate-plan-card .card img {
   width: 45px;
 }
 
-.donate-plane .donate-plan-card .card h3 {
+.donate-plan-card .card h3 {
   font-size: 20px;
   margin: 15px 0px;
 }
 
-.donate-plane .donate-plan-card .card p {
+.donate-plan-card .card p {
   font-size: 15px;
 }
 
@@ -241,4 +241,73 @@ body {
 
 .servive-section-area img {
   height: 584px;
+}
+
+
+/* ........................................................ */
+/* update section */
+.update {
+  width: 45%;
+  text-align: center;
+  margin: 65px auto;
+}
+
+.update h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.update p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.update-email-sec {
+  margin-top: 40px;
+  padding: 55px;
+  background-color: #ff63471a;
+  border-radius: 135px 0px;
+}
+
+.update-email-sec input[type=email] {
+  border: 1px solid #ff634780;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 11px 50px;
+  border-radius: 50px 0px;
+  margin-right: -7px;
+  width: 45%;
+}
+
+.update-email-sec input[type=submit] {
+  text-decoration: none;
+  color: #fff;
+  background-color: tomato;
+  padding: 10px 40px;
+  cursor: pointer;
+  border-radius: 50px 0px;
+  outline: 0;
+  border: none;
+  font-size: 20px;
+
+}
+
+
+/* ........................................................ */
+/* footer section */
+
+.footer-section {
+  width: 100%;
+  height: 45%;
+  padding: 42px;
+  padding: 42px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+
+}
+
+.footer-section p {
+  font-size: 15px;
 }
