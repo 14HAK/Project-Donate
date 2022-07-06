@@ -243,19 +243,20 @@ body {
   height: 584px;
 }
 
+
 /* ........................................................ */
 /* Our Project section  Bonas section */
-.our-projects {
-  margin: 85px auto;
+.donation-projects {
+  margin: 25px auto;
 }
 
-.our-projects h1 {
+.donation-projects h1 {
   font-size: 40px;
   margin-bottom: 45px;
   text-align: center;
 }
 
-.our-project-flex {
+.donation-project-flex {
   display: flex;
   justify-content: center;
 }
@@ -270,12 +271,32 @@ body {
 .project-cart {
   width: 20%;
   padding: 10px;
+  background-color: #00000008;
+  margin-right: 20px;
+  border-radius: 15px;
 }
 
 .project-cart address {
   font-size: 15px;
   margin-top: 15px;
   line-height: 20px;
+}
+
+/* ........................................................ */
+/* donate more section */
+.donate-more {
+  padding: 2%;
+  text-align: center;
+  background-color: #00000008;
+  margin: 5% 0%;
+}
+
+.donate-more a {
+  text-decoration: none;
+  padding: 10px 40px;
+  background-color: tomato;
+  border-radius: 8px;
+  color: #fff;
 }
 
 /* ........................................................ */
